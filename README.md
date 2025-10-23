@@ -795,7 +795,7 @@ python --version
 
 ### Validation Process
 
-**Prerequisites:** Data validation requires Python ≥ 3.10 or \< 3.13 to be installed and available in your PATH. To verify that Python is available in your PATH, run  python--version in your terminal (or Command Prompt on Windows). Download Python [here](https://www.python.org/downloads/). 
+**Prerequisites:** Data validation requires Python ≥ 3.10 or \< 3.13 to be installed and available in your PATH. To verify that Python is available in your PATH, run  `python --version` in your terminal (or Command Prompt on Windows). Download Python [here](https://www.python.org/downloads/). 
 
 **Step 1: Environment Setup**
 
