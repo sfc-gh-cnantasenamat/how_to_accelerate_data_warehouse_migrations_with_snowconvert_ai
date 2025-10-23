@@ -17,16 +17,15 @@ At its core, data migration is the process of moving data between locations like
 
 SnowConvert AI and Snowpark Migration Accelerator are both tools from Snowflake designed to assist in code migration, but they serve different purposes. 
 
-![][assets/image_01.png
-]
+![](assets/image_01.png)
 
 SnowConvert AI is an AI-powered solution for migrating entire data ecosystems, including code and objects, from a wide range of legacy data warehouses and BI tools (such as Teradata, Oracle, and Google BigQuery) to Snowflake. Its core function is to intelligently automate the conversion of SQL-based workloads, reducing manual effort. This guide provides a complete, end-to-end walkthrough of a SnowConvert AI migration project, from initial setup and extraction to code conversion, deployment, and final data validation.
 
-![][assets/image_02.png]
+![](assets/image_02.png)
 
 In contrast, the [Snowpark Migration Accelerator](https://www.snowflake.com/en/data-cloud/snowpark/migration-accelerator/\)) is a specialized, free tool for migrations from Databricks or another Spark platform. Briefly, it converts existing Apache Spark codebases (in Python or Scala) to leverage the Snowpark API.
 
-![][assets/image_03.png]
+![](assets/image_03.png)
 
 ### What You'll Learn
 
@@ -147,14 +146,14 @@ To ensure quality, access codes are required to use SnowConvert AI and are valid
 **Method 1: Through the Application**
 
 1. Open SnowConvert AI  
-2. Click "Get an Access Code" link on the Project Creation page ![][assets/image_04.png]![][assets/image_05.png]  
+2. Click "Get an Access Code" link on the Project Creation page ![](assets/image_04.png)![](assets/image_05.png)  
    **Note:** If you face connectivity issues due to restrictive firewall settings, please refer to this [document](https://docs.snowflake.com/en/migrations/snowconvert-docs/general/frequently-asked-questions-faq#why-i-am-not-receiving-an-access-code) for troubleshooting guidance:   
 3. Fill out the required information form  
 4. Submit and wait for email confirmation
 
 **Method 2: Help Menu**
 
-![][assets/image_06.png]
+![](assets/image_06.png)
 
 1. Launch SnowConvert AI  
 2. Go to main menu bar  
@@ -219,9 +218,9 @@ For other sources, you will still need to extract your SQL code into .sql files.
 SnowConvert AI offers flexible authentication options to seamlessly integrate with your existing SQL Server environments. The platform supports two primary methods, ensuring secure and efficient access to your databases:
 
 * **Standard SQL Server Authentication:** Uses a username and password.  
-![][assets/image_07.png]  
+![](assets/image_07.png)  
 * **Windows Authentication (Integrated Security):** Leverages the Windows user's security credentials, often preferred in enterprise environments for seamless, secure integration with existing Windows security policies.  
-![][assets/image_08.png]
+![](assets/image_08.png)
 
 **Security Options:**
 
@@ -240,11 +239,11 @@ SnowConvert AI offers flexible authentication options to seamlessly integrate wi
 **Authentication Methods:**
 
 * IAM Provisioned Cluster  
-![][assets/image_09.png]  
+![](assets/image_09.png)  
 * IAM Serverless  
-![][assets/image_10.png]  
+![](assets/image_10.png)  
 * Standard authentication  
-![][assets/image_11.png]
+![](assets/image_11.png)
 
 **Extractable Objects:**
 
@@ -253,7 +252,7 @@ SnowConvert AI offers flexible authentication options to seamlessly integrate wi
 * Materialized views  
 * Stored procedures
 
-### Extraction Process![][assets/image_12.png]
+### Extraction Process![](assets/image_12.png)
 
 1. **Configure Connection:**  
 * Select authentication method  
@@ -266,19 +265,19 @@ SnowConvert AI offers flexible authentication options to seamlessly integrate wi
 * Browse available databases and schemas  
     
 3. **Select Objects:**  
-![][assets/image_13.png]  
+![](assets/image_13.png)  
 * Expand database and schema trees  
 * Select specific objects for extraction  
 * Review object dependencies  
     
 4. **Execute Extraction:**  
-![][assets/image_14.png]  
+![](assets/image_14.png)  
 * Click "Extract Objects"  
 * Monitor extraction progress  
 * Review extraction results  
     
 5. **Validate Results:**  
-![][assets/image_15.png]  
+![](assets/image_15.png)  
 * Click "View Last Extraction Results"  
 * Confirm all required objects extracted successfully  
 * Note any extraction failures or warnings
@@ -325,7 +324,7 @@ SnowConvert AI performs both assessment and conversion in a single unified proce
 ### Understanding Conversion Results
 
 **Code Completeness Metric:**  
-![][assets/image_16.png]
+![](assets/image_16.png)
 
 * Score below 100% indicates missing object references  
 * Review dependencies before deployment  
@@ -375,18 +374,18 @@ The AI Verification step (currently in Public Preview) adds a layer of intellige
 
 After the code conversion step customers can opt to use AI Verification to improve the quality of the converted code. If a customer is not allowed to use AI, this step can be skipped and continue to the Deployment of the converted objects ( as you can see in the image below, SKIP AI VERIFICATION button shows in the lower left corner of the screen). To continue with AI Verification we need to select which objects we want to verify.  Sometimes certain objects will be auto selected by SnowConvert AI because they are dependencies of the selected objects. So don't be scared if you select one procedure but the tool auto selects a few tables, views and even other procedures. This means all those objects are required to be able to execute the selected stored procedure.  
 
-![][assets/image_17.png]
+![](assets/image_17.png)
 
 Once objects are selected, the VERIFY CODE can be clicked, which will display a special screen with a set of disclaimers. It is important to read and understand these disclaimers before proceeding. The AI will be executed in the customer Snowflake account using a Cortex Complete function. The tool will use the same Snowflake connection that was used for Source Code Extraction and that will be used for Deployment and Data Migration.
 
-![][assets/image_18.png]
+![](assets/image_18.png)
 
 Once the user accepts all of the disclaimers, they can proceed with the actual verification. This step may take a long time as AI needs to upload files to a Snowflake stage to complete the verification process. At the end of the process, you will get a result screen similar to the image below.  
-![][assets/image_19.png]
+![](assets/image_19.png)
 
 At the top of your screen, you'll find a summary of the AI Results, followed by detailed information for each validated object. To gain a deeper understanding of how the AI reviewed a specific object, click "SEE DETAILS" for that object. This will display an explanation similar to the example shown in the following image.
 
-![][assets/image_20.png]
+![](assets/image_20.png)
 
 It is important to understand that the migration engineer needs to review the AI results and merge them with the initial code conversion results.
 
@@ -619,7 +618,7 @@ For migrations from Databricks or another Spark platform, you’ll use [Snowpark
 **Prerequisites:**
 
 1. **S3 Bucket Configuration:**  
-![][assets/image_21.png]
+![](assets/image_21.png)
      
 * Bucket in same region as Redshift cluster  
 * Empty bucket path (no existing files)  
@@ -691,7 +690,7 @@ The migration process outlines the essential steps for efficiently transferring 
    
 
 2. **Select Tables:**  
-![][assets/image_22.png]  
+![](assets/image_22.png)  
 * Choose tables for data migration  
 * Review table sizes and complexity  
 * Consider migration batch sizing  
@@ -703,7 +702,7 @@ The migration process outlines the essential steps for efficiently transferring 
 * Observe copy operations to Snowflake  
     
 4. **Validate Results:**  
-![][assets/image_23.png]  
+![](assets/image_23.png)  
 * Compare row counts between source and target  
 * Verify data integrity and completeness  
 * Review migration timing and performance
@@ -734,20 +733,20 @@ The migration process outlines the essential steps for efficiently transferring 
 * Review dependencies and foreign keys  
 * Plan migration order if needed
 
-![][assets/image24.png]
+![](assets/image24.png)
 
 3. **Execute Transfer:**  
 * Start data migration process  
 * Monitor transfer progress and speed  
 * Handle any connection or timeout issues  
-![][assets/image_25.png]
+![](assets/image_25.png)
 
 
 4. **Validate Migration:**  
 * Compare row counts automatically  
 * Review data type conversions  
 * Verify constraint compliance  
-![][assets/image_26.png]
+![](assets/image_26.png)
 
 ## 11. Data Validation
 
@@ -806,7 +805,7 @@ python --version
 4. Dependency installation
 
 **Step 2: Validation Execution**  
-![][assets/image_27.png]
+![](assets/image_27.png)
 
 1. Click "Validate Data" in the migration interface  
 2. System checks Python availability  
@@ -821,7 +820,7 @@ python --version
 | **Warning** | Minor differences (e.g., higher precision) | Reconcile data by: Applying transformation  Changing the ingestion process |
 | **Fail** | Values don't match | Investigation required |
 
-![][assets/image_28.png]
+![](assets/image_28.png)
 
 ### Validation Reports
 
