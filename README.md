@@ -974,8 +974,9 @@ SELECT
     COUNT(*) as row_count 
 FROM target_database.schema.table_name;
 ```
-
-### Should your require additional help resolving errors and ensuring data integrity, please email [snowconvert-info@snowflake.com](mailto:snowconvert-info@snowflake.com)
+> aside positive
+> NOTE:
+> Should you require additional help resolving errors and ensuring data integrity, please email [snowconvert-info@snowflake.com](mailto:snowconvert-info@snowflake.com)
 
 ### Validation
 
