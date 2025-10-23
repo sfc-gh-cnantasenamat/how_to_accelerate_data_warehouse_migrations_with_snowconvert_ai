@@ -111,11 +111,11 @@ Before installing [SnowConvert AI](https://www.snowflake.com/en/migrate-to-the-c
 
 SnowConvert AI can be downloaded from this [link.](https://www.snowflake.com/en/migrate-to-the-cloud/snowconvert-ai/) It's highly recommended to complete the free course "[SnowConvert AI for Conversion](https://training.snowflake.com/lmt/clmsCatalogDetails.prMain?site=sf&in_offeringId=130596852)" available at Snowflake Training, which provides both overview and hands-on technical training.
 
-aside positive IMPORTANT:
-
-- SnowConvert AI is free for all users  
-- Download Snowconvert AI from any Snowflake account via Snowsight by navigating to Ingestion/Migrations in the left-hand menu.   
-- Professional services are available for additional migration support. Learn more and contact a representative [here](https://www.snowflake.com/en/solutions/professional-services/). 
+> aside positive
+> IMPORTANT:
+> - SnowConvert AI is free for all users  
+> - Download Snowconvert AI from any Snowflake account via Snowsight by navigating to Ingestion/Migrations in the left-hand menu.   
+> - Professional services are available for additional migration support. Learn more and contact a representative [here](https://www.snowflake.com/en/solutions/professional-services/). 
 
 ### Installing SnowConvert AI
 
