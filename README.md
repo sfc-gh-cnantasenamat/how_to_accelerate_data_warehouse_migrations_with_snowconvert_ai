@@ -31,11 +31,6 @@ In contrast, the [Snowpark Migration Accelerator](https://www.snowflake.com/en/d
 
 This guide will walk you through the complete end-to-end migration process, which is broken down into four key parts:
 
-* **Part 1: Preparation and Setup:** Covers the preliminary steps required to get your environment ready for the migration.  
-* **Part 2: Code Extraction and Conversion:** Focuses on extracting code from your legacy system and converting it to be Snowflake-compatible.  
-* **Part 3: Migration Execution:** Details the deployment of the new schema to Snowflake, the movement of data, and the validation of the results.  
-* **Part 4: Post-Migration and Resources:** Provides support, best practices, and guidance for next steps after the migration is complete.
-
 **Part 1: Preparation and Setup**
 
 * Setup and Installation  
