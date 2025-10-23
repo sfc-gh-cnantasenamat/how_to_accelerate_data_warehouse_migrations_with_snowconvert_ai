@@ -514,17 +514,19 @@ SnowConvert AI facilitates the direct deployment of converted code objects and s
 * Resolve any EWI (Error with Impact) errors before deployment.  
 * Review FDM (Further Development Mandatory) warnings and decide if deployment is acceptable.  
 * Use "Refresh Tree" to update status after code changes  
-* **MANDATORY:** Resolve any EWI (Error with Impact) errors before deployment. These errors represent logic that could not be reliably converted and will cause deployment failure or runtime errors if not corrected.  
-  **Handling EWI Errors:**   
-  SnowConvert AI is designed to flag these high-impact errors, but cannot always fix them. To resolve an EWI, you must:  
-1. **Examine the code snippet** in the SnowConvert AI interface that triggered the EWI or better yet in your preferred Source Code IDE. [Learn more](https://quickstarts.snowflake.com/guide/end2endmigration/index.html?index=..%2F..index#3)  
-2. **Manually modify the converted source code** to fix the issue..  
-3. **Unit test** on the corrected file.  
-   **Object Selection:**  
-* Select only successfully converted objects  
-* Consider deployment dependencies  
-* Group related objects for batch deployment
 
+> aside positive
+> MANDATORY:
+> Resolve any EWI (Error with Impact) errors before deployment. These errors represent logic that could not be reliably converted and will cause deployment failure or runtime errors if not corrected.  
+> **Handling EWI Errors:**   
+> SnowConvert AI is designed to flag these high-impact errors, but cannot always fix them. To resolve an EWI, you must:  
+> 1. **Examine the code snippet** in the SnowConvert AI interface that triggered the EWI or better yet in your preferred Source Code IDE. [Learn more](https://quickstarts.snowflake.com/guide/end2endmigration/index.html?index=..%2F..index#3)  
+> 2. **Manually modify the converted source code** to fix the issue..  
+> 3. **Unit test** on the corrected file.  
+> **Object Selection:**  
+> * Select only successfully converted objects  
+> * Consider deployment dependencies  
+> * Group related objects for batch deployment
 
 **Step 2: Initiate Deployment**
 
