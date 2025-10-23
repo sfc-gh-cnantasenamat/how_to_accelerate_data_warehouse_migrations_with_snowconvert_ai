@@ -66,17 +66,16 @@ By the end of this quickstart guide, you will have a complete understanding of t
 * Valid Snowflake account with appropriate permissions  
   * Ensure your target role has the appropriate privileges. Specifically, the role needs:  
     1. The `CREATE MIGRATION` privilege at the account level. You can grant this with the following command:  
-
 ```SQL
 GRANT CREATE MIGRATION ON ACCOUNT TO ROLE <your_role>;
 ```
+    2. The ability to create databases and objects within them. 
 
-    2. The ability to **create databases and objects** within them. 
-    
 * Access to source database system (Teradata, Oracle, SQL Server, etc.)  
   * To prepare for the migration, verify that the role for your legacy data source has the necessary permissions. The role must have:  
     1. **Read access** to all objects you plan to migrate.  
     2. The ability to extract the **Data Definition Language (DDL)** code for these objects.  
+
 * Company domain email address for access code generation  
 * Windows 11+, macOS 13.3+, or Linux operating system  
 * Minimum 4GB RAM  
