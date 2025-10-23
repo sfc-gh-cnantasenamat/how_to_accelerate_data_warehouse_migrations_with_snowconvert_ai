@@ -72,7 +72,7 @@ By the end of this quickstart guide, you will have a complete understanding of t
 GRANT CREATE MIGRATION ON ACCOUNT TO ROLE <your_role>;
 ```
 
-2. The ability to **create databases and objects** within them.  
+    2. The ability to **create databases and objects** within them.  
 * Access to source database system (Teradata, Oracle, SQL Server, etc.)  
   * To prepare for the migration, verify that the role for your legacy data source has the necessary permissions. The role must have:  
 
