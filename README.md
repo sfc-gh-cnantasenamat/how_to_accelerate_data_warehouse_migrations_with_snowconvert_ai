@@ -65,7 +65,7 @@ By the end of this quickstart guide, you will have a complete understanding of t
 
 * Valid Snowflake account with appropriate permissions  
   * Ensure your target role has the appropriate privileges. Specifically, the role needs:  
-1. The `CREATE MIGRATION` privilege at the account level. You can grant this with the following command:  
+    1. The `CREATE MIGRATION` privilege at the account level. You can grant this with the following command:  
    SQL
 
 ```
