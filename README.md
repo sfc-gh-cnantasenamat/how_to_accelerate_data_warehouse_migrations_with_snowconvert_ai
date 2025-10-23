@@ -75,6 +75,7 @@ GRANT CREATE MIGRATION ON ACCOUNT TO ROLE <your_role>;
 2. The ability to **create databases and objects** within them.  
 * Access to source database system (Teradata, Oracle, SQL Server, etc.)  
   * To prepare for the migration, verify that the role for your legacy data source has the necessary permissions. The role must have:  
+
 1. **Read access** to all objects you plan to migrate.  
 2. The ability to extract the **Data Definition Language (DDL)** code for these objects.  
 * Company domain email address for access code generation  
@@ -728,7 +729,7 @@ The migration process outlines the essential steps for efficiently transferring 
 * Review dependencies and foreign keys  
 * Plan migration order if needed
 
-![](assets/image24.png)
+![](assets/image_24.png)
 
 3. **Execute Transfer:**  
 * Start data migration process  
