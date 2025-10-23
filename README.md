@@ -141,9 +141,11 @@ To ensure quality, access codes are required to use SnowConvert AI and are valid
 
 1. Open SnowConvert AI  
 2. Click "Get an Access Code" link on the Project Creation page ![](assets/image_04.png)![](assets/image_05.png)  
-   **Note:** If you face connectivity issues due to restrictive firewall settings, please refer to this [document](https://docs.snowflake.com/en/migrations/snowconvert-docs/general/frequently-asked-questions-faq#why-i-am-not-receiving-an-access-code) for troubleshooting guidance:   
-3. Fill out the required information form  
-4. Submit and wait for email confirmation
+> aside positive
+> Note:
+> If you face connectivity issues due to restrictive firewall settings, please refer to this [document](https://docs.snowflake.com/en/migrations/snowconvert-docs/general/frequently-asked-questions-faq#why-i-am-not-receiving-an-access-code) for troubleshooting guidance 
+4. Fill out the required information form  
+5. Submit and wait for email confirmation
 
 **Method 2: Help Menu**
 
