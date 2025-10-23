@@ -925,12 +925,12 @@ GRANT INSERT, SELECT ON ALL TABLES IN SCHEMA target_db.public TO ROLE migration_
 - Track user adoption and satisfaction  
 - Plan for ongoing maintenance and optimization
 
-aside positive IMPORTANT:
-
-- Always test conversions in development environments first  
-- Maintain detailed migration documentation for future reference  
-- Plan rollback strategies for critical production migrations  
-- Engage Snowflake Professional Services for complex migrations
+> aside positive
+> IMPORTANT:
+> - Always test conversions in development environments first  
+> - Maintain detailed migration documentation for future reference  
+> - Plan rollback strategies for critical production migrations  
+> - Engage Snowflake Professional Services for complex migrations
 
 ## 13. Best Practices
 
