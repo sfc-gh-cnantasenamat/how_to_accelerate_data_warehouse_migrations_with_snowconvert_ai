@@ -67,7 +67,7 @@ By the end of this quickstart guide, you will have a complete understanding of t
   * Ensure your target role has the appropriate privileges. Specifically, the role needs:  
     1. The `CREATE MIGRATION` privilege at the account level. You can grant this with the following command:  
 
-```
+```SQL
 GRANT CREATE MIGRATION ON ACCOUNT TO ROLE <your_role>;
 ```
 
