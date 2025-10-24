@@ -156,7 +156,7 @@ To ensure quality, access codes are required to use SnowConvert AI and are valid
 3. Click "Get an access code" option  
 4. Complete the form and submit
 
-## 3 Understanding SnowConvert AI Projects
+## 3. Understanding SnowConvert AI Projects
 
 Duration: 5
 
