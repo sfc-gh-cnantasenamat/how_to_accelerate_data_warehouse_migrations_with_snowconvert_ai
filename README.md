@@ -23,7 +23,7 @@ SnowConvert AI is an AI-powered solution for migrating entire data ecosystems, i
 
 ![](assets/image_02.png)
 
-In contrast, the [Snowpark Migration Accelerator](https://www.snowflake.com/en/data-cloud/snowpark/migration-accelerator/\)) is a specialized, free tool for migrations from Databricks or another Spark platform. Briefly, it converts existing Apache Spark codebases (in Python or Scala) to leverage the Snowpark API.
+In contrast, the [Snowpark Migration Accelerator](https://www.snowflake.com/en/data-cloud/snowpark/migration-accelerator/) is a specialized, free tool for migrations from Databricks or another Spark platform. Briefly, it converts existing Apache Spark codebases (in Python or Scala) to leverage the Snowpark API.
 
 ![](assets/image_03.png)
 
