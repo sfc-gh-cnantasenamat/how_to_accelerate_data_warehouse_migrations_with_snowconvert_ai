@@ -605,7 +605,7 @@ Duration: 25
 
 SnowConvert AI provides automated data migration capabilities to transfer actual data from Teradata, Oracle, SQL Server, Amazon Redshift, Synapse, Sybase, BigQuery, Netezza, Postgres, Greenplum and Databricks SQL source tables to deployed Snowflake structures, with platform-specific optimization strategies.
 
-For migrations from Databricks or another Spark platform, you’ll use [Snowpark Migration Accelerator](https://www.snowflake.com/en/data-cloud/snowpark/migration-accelerator/\)).
+For migrations from Databricks or another Spark platform, you’ll use [Snowpark Migration Accelerator](https://www.snowflake.com/en/data-cloud/snowpark/migration-accelerator/).
 
 ### Amazon Redshift Data Migration
 
@@ -795,7 +795,7 @@ python --version
 
 ### Validation Process
 
-**Prerequisites:** Data validation requires Python ≥ 3.10 or \< 3.13 to be installed and available in your PATH. To verify that Python is available in your PATH, run  `python --version` in your terminal (or Command Prompt on Windows). Download Python [here](https://www.python.org/downloads/). 
+**Prerequisites:** Data validation requires Python ≥ 3.10 or < 3.13 to be installed and available in your PATH. To verify that Python is available in your PATH, run  `python --version` in your terminal (or Command Prompt on Windows). Download Python [here](https://www.python.org/downloads/). 
 
 **Step 1: Environment Setup**
 
